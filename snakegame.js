@@ -4,7 +4,6 @@ canvas.id = "canvas";
 canvas.width = 400;
 canvas.height = 400;
 canvas.style.zIndex = 8;
-canvas.style.position = "absolute";
 canvas.style.border = "1px solid";
 document.getElementById("view_div").appendChild(canvas);
 canvas = document.getElementById("canvas");
