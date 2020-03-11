@@ -5,7 +5,7 @@ canvas.height = 400;
 canvas.style.zIndex   = 8;
 canvas.style.position = "absolute";
 canvas.style.border   = "1px solid";        				 
-document.body.getElementById("view_div").appendChild(canvas);
+document.getElementById("view_div").appendChild(canvas);
 canvas = document.getElementById("gameCanvas");
 ctx = canvas.getContext("2d");       					
 document.addEventListener("keydown", keyDownEvent);
