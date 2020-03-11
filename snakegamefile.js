@@ -1,12 +1,11 @@
 canvas = document.createElement('canvas');
-canvas.id     = "canvas";
+canvas.id     = "gameCanvas";
 canvas.width  = 400;
 canvas.height = 400;
 canvas.style.zIndex   = 8;
 canvas.style.position = "absolute";
 canvas.style.border   = "1px solid";        				 
 document.body.getElementById("view_div").appendChild(canvas);
-canvas.setAttribute('id', "gameCanvas")
 canvas = document.getElementById("gameCanvas");
 ctx = canvas.getContext("2d");       					
 document.addEventListener("keydown", keyDownEvent);
